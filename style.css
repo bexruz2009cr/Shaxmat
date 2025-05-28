@@ -1,0 +1,86 @@
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #2e2e3e;
+  border-radius: 12px;
+  color: #f0f0f0;
+  font-family: sans-serif;
+}
+
+.add-game-form input, .add-game-form textarea {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  background: #3e3e4e;
+  color: white;
+}
+
+button {
+  background-color: #00c896;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #009f76;
+}
+
+.game-button {
+  width: 100%;
+  padding: 15px;
+  margin-top: 15px;
+  background-color: #44445a;
+  color: white;
+  border-radius: 10px;
+  font-size: 1rem;
+  text-align: left;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.game-button:hover {
+  background-color: #555570;
+}
+
+#game-details {
+  margin-top: 30px;
+  background: #3a3a4d;
+  border-radius: 12px;
+  padding: 20px;
+  white-space: pre-wrap; /* izohlarni chiroyli ko'rsatish uchun */
+}
+
+.hidden {
+  display: none;
+}
+
+.delete-btn {
+  background-color: #ff4c4c;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.delete-btn:hover {
+  background-color: #cc0000;
+}
+
+.Party {
+background-color: #44445a;
+padding: 10px;
+margin-top: 20px;
+border-radius: 5px;
+}

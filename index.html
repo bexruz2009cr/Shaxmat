@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8" />
+  <title>BexruzChess</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>BexruzChess</h1>
+    <p>O‘z shaxmat o‘yinlaringizni yozing, tahlil qiling va tarixga qoldiring.</p>
+
+    <div class="add-game-form">
+      <input id="opponent" placeholder="Raqib ismi" />
+      <input id="opening" placeholder="Ochildi (masalan, Sicilian)" />
+      <input id="result" placeholder="Natija (1-0, 0-1, ½-½)" />
+      <textarea id="moves" placeholder="Yurishlar: e4 e5 Nf3 Nc6 ..."></textarea>
+      <textarea id="analysis" placeholder="Izoh: Bu yerda men xato qildim..."></textarea>
+      <button onclick="addGame()">Qo‘shish</button>
+    </div>
+
+    <h2 class="Party">Partiyalarim</h2>
+    <div id="games-list"></div>
+
+    <h2 class="Party">Partiya tafsilotlari</h2>
+    <div id="game-details" class="hidden"></div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
